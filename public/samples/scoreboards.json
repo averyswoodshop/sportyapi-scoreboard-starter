@@ -1,0 +1,625 @@
+{
+  "nfl": {
+    "sport": "nfl",
+    "games": [
+      {
+        "id": "sample-nfl-1",
+        "sport": "nfl",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Buffalo Bills",
+          "shortName": "BUF",
+          "score": 21,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Baltimore Ravens",
+          "shortName": "BAL",
+          "score": 17,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_IN_PROGRESS",
+          "detail": "In progress \u00b7 sample",
+          "shortDetail": "In progress \u00b7 sample",
+          "period": 2,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-nfl-2",
+        "sport": "nfl",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Buffalo Bills",
+          "shortName": "BUF",
+          "score": 0,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Baltimore Ravens",
+          "shortName": "BAL",
+          "score": 0,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_SCHEDULED",
+          "detail": "Scheduled \u00b7 sample",
+          "shortDetail": "Scheduled \u00b7 sample",
+          "period": 0,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-nfl-3",
+        "sport": "nfl",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Buffalo Bills",
+          "shortName": "BUF",
+          "score": 21,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Baltimore Ravens",
+          "shortName": "BAL",
+          "score": 17,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_FINAL",
+          "detail": "Final \u00b7 sample",
+          "shortDetail": "Final \u00b7 sample",
+          "period": 2,
+          "completed": true
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      }
+    ]
+  },
+  "nba": {
+    "sport": "nba",
+    "games": [
+      {
+        "id": "sample-nba-1",
+        "sport": "nba",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Boston Celtics",
+          "shortName": "BOS",
+          "score": 84,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "New York Knicks",
+          "shortName": "NYK",
+          "score": 79,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_IN_PROGRESS",
+          "detail": "In progress \u00b7 sample",
+          "shortDetail": "In progress \u00b7 sample",
+          "period": 2,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-nba-2",
+        "sport": "nba",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Boston Celtics",
+          "shortName": "BOS",
+          "score": 0,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "New York Knicks",
+          "shortName": "NYK",
+          "score": 0,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_SCHEDULED",
+          "detail": "Scheduled \u00b7 sample",
+          "shortDetail": "Scheduled \u00b7 sample",
+          "period": 0,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-nba-3",
+        "sport": "nba",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Boston Celtics",
+          "shortName": "BOS",
+          "score": 84,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "New York Knicks",
+          "shortName": "NYK",
+          "score": 79,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_FINAL",
+          "detail": "Final \u00b7 sample",
+          "shortDetail": "Final \u00b7 sample",
+          "period": 2,
+          "completed": true
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      }
+    ]
+  },
+  "nhl": {
+    "sport": "nhl",
+    "games": [
+      {
+        "id": "sample-nhl-1",
+        "sport": "nhl",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Detroit Red Wings",
+          "shortName": "DET",
+          "score": 2,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Toronto Maple Leafs",
+          "shortName": "TOR",
+          "score": 3,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_IN_PROGRESS",
+          "detail": "In progress \u00b7 sample",
+          "shortDetail": "In progress \u00b7 sample",
+          "period": 2,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-nhl-2",
+        "sport": "nhl",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Detroit Red Wings",
+          "shortName": "DET",
+          "score": 0,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Toronto Maple Leafs",
+          "shortName": "TOR",
+          "score": 0,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_SCHEDULED",
+          "detail": "Scheduled \u00b7 sample",
+          "shortDetail": "Scheduled \u00b7 sample",
+          "period": 0,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-nhl-3",
+        "sport": "nhl",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Detroit Red Wings",
+          "shortName": "DET",
+          "score": 2,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Toronto Maple Leafs",
+          "shortName": "TOR",
+          "score": 3,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_FINAL",
+          "detail": "Final \u00b7 sample",
+          "shortDetail": "Final \u00b7 sample",
+          "period": 2,
+          "completed": true
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      }
+    ]
+  },
+  "mlb": {
+    "sport": "mlb",
+    "games": [
+      {
+        "id": "sample-mlb-1",
+        "sport": "mlb",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "New York Yankees",
+          "shortName": "NYY",
+          "score": 4,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Boston Red Sox",
+          "shortName": "BOS",
+          "score": 2,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_IN_PROGRESS",
+          "detail": "In progress \u00b7 sample",
+          "shortDetail": "In progress \u00b7 sample",
+          "period": 2,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-mlb-2",
+        "sport": "mlb",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "New York Yankees",
+          "shortName": "NYY",
+          "score": 0,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Boston Red Sox",
+          "shortName": "BOS",
+          "score": 0,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_SCHEDULED",
+          "detail": "Scheduled \u00b7 sample",
+          "shortDetail": "Scheduled \u00b7 sample",
+          "period": 0,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-mlb-3",
+        "sport": "mlb",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "New York Yankees",
+          "shortName": "NYY",
+          "score": 4,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Boston Red Sox",
+          "shortName": "BOS",
+          "score": 2,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_FINAL",
+          "detail": "Final \u00b7 sample",
+          "shortDetail": "Final \u00b7 sample",
+          "period": 2,
+          "completed": true
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      }
+    ]
+  },
+  "ncaaf": {
+    "sport": "ncaaf",
+    "games": [
+      {
+        "id": "sample-ncaaf-1",
+        "sport": "ncaaf",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Michigan Wolverines",
+          "shortName": "MICH",
+          "score": 17,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Ohio State Buckeyes",
+          "shortName": "OSU",
+          "score": 14,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_IN_PROGRESS",
+          "detail": "In progress \u00b7 sample",
+          "shortDetail": "In progress \u00b7 sample",
+          "period": 2,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-ncaaf-2",
+        "sport": "ncaaf",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Michigan Wolverines",
+          "shortName": "MICH",
+          "score": 0,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Ohio State Buckeyes",
+          "shortName": "OSU",
+          "score": 0,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_SCHEDULED",
+          "detail": "Scheduled \u00b7 sample",
+          "shortDetail": "Scheduled \u00b7 sample",
+          "period": 0,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-ncaaf-3",
+        "sport": "ncaaf",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Michigan Wolverines",
+          "shortName": "MICH",
+          "score": 17,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Ohio State Buckeyes",
+          "shortName": "OSU",
+          "score": 14,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_FINAL",
+          "detail": "Final \u00b7 sample",
+          "shortDetail": "Final \u00b7 sample",
+          "period": 2,
+          "completed": true
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      }
+    ]
+  },
+  "ncaab": {
+    "sport": "ncaab",
+    "games": [
+      {
+        "id": "sample-ncaab-1",
+        "sport": "ncaab",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Duke Blue Devils",
+          "shortName": "DUKE",
+          "score": 54,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "North Carolina Tar Heels",
+          "shortName": "UNC",
+          "score": 51,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_IN_PROGRESS",
+          "detail": "In progress \u00b7 sample",
+          "shortDetail": "In progress \u00b7 sample",
+          "period": 2,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-ncaab-2",
+        "sport": "ncaab",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Duke Blue Devils",
+          "shortName": "DUKE",
+          "score": 0,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "North Carolina Tar Heels",
+          "shortName": "UNC",
+          "score": 0,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_SCHEDULED",
+          "detail": "Scheduled \u00b7 sample",
+          "shortDetail": "Scheduled \u00b7 sample",
+          "period": 0,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-ncaab-3",
+        "sport": "ncaab",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Duke Blue Devils",
+          "shortName": "DUKE",
+          "score": 54,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "North Carolina Tar Heels",
+          "shortName": "UNC",
+          "score": 51,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_FINAL",
+          "detail": "Final \u00b7 sample",
+          "shortDetail": "Final \u00b7 sample",
+          "period": 2,
+          "completed": true
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      }
+    ]
+  },
+  "soccer": {
+    "sport": "soccer",
+    "games": [
+      {
+        "id": "sample-soccer-1",
+        "sport": "soccer",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Arsenal",
+          "shortName": "ARS",
+          "score": 1,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Liverpool",
+          "shortName": "LIV",
+          "score": 1,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_IN_PROGRESS",
+          "detail": "In progress \u00b7 sample",
+          "shortDetail": "In progress \u00b7 sample",
+          "period": 2,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-soccer-2",
+        "sport": "soccer",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Arsenal",
+          "shortName": "ARS",
+          "score": 0,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Liverpool",
+          "shortName": "LIV",
+          "score": 0,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_SCHEDULED",
+          "detail": "Scheduled \u00b7 sample",
+          "shortDetail": "Scheduled \u00b7 sample",
+          "period": 0,
+          "completed": false
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      },
+      {
+        "id": "sample-soccer-3",
+        "sport": "soccer",
+        "date": "2026-10-01T18:00:00Z",
+        "awayTeam": {
+          "name": "Arsenal",
+          "shortName": "ARS",
+          "score": 1,
+          "record": ""
+        },
+        "homeTeam": {
+          "name": "Liverpool",
+          "shortName": "LIV",
+          "score": 1,
+          "record": ""
+        },
+        "status": {
+          "type": "STATUS_FINAL",
+          "detail": "Final \u00b7 sample",
+          "shortDetail": "Final \u00b7 sample",
+          "period": 2,
+          "completed": true
+        },
+        "venue": {
+          "fullName": "Illustrative venue"
+        },
+        "broadcast": []
+      }
+    ]
+  }
+}

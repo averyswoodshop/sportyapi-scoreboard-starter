@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sportyapi-scoreboard-starter",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-17",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "vars": {
+    "SPORTYAPI_MODE": "sample"
+  },
+  "limits": {
+    "cpu_ms": 100
+  }
+}
