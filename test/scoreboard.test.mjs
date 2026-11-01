@@ -40,3 +40,24 @@ test('handles unavailable access, upstream errors, malformed and empty responses
  const broken=createScoreboardHandler({fetchImpl:async()=>Response.json({wrong:[]})});assert.equal((await broken(req(),config)).status,502);
  const failed=createScoreboardHandler({fetchImpl:async()=>{throw Error('upstream-only-details');}});assert.doesNotMatch(await (await failed(req(),config)).text(),/upstream-only-details/);
 });
+
+test('every sample uses the current protected game contract',()=>{
+ const states=new Set(['SCHEDULED','LIVE','HALFTIME','FINAL','POSTPONED','CANCELED','UNKNOWN']);
+ const teamIds=new Map();
+ for(const [sport,bundle] of Object.entries(samples)){
+  assert.equal(bundle.sport,sport);assert.equal(bundle.source,undefined);
+  for(const game of bundle.games){
+   assert.match(game.id,/^evt_[A-Za-z0-9_-]{22}$/);
+   assert.match(game.league.id,/^lg_[A-Za-z0-9_-]{22}$/);
+   assert.ok(states.has(game.status.type));assert.equal(game.status.rawType,undefined);
+   assert.ok(['pre','in','post','unknown'].includes(game.status.state));assert.equal(typeof game.status.clock,'string');
+   for(const side of ['homeTeam','awayTeam']){
+    const team=game[side];assert.match(team.id,/^tm_[A-Za-z0-9_-]{22}$/);assert.equal(team.key,undefined);
+    assert.ok(team.logo.startsWith('data:image/svg+xml,'));
+    const identity=sport+':'+team.name;
+    if(teamIds.has(identity))assert.equal(team.id,teamIds.get(identity));else teamIds.set(identity,team.id);
+   }
+  }
+ }
+ assert.doesNotMatch(JSON.stringify(samples),/STATUS_|rawType|espn|sportsdb|foxsports/);
+});

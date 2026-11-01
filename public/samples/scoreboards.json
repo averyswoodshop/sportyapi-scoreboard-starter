@@ -3,88 +3,118 @@
     "sport": "nfl",
     "games": [
       {
-        "id": "sample-nfl-1",
+        "id": "evt_zr_O4KpPYVzYxMqeu9vpoo",
         "sport": "nfl",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Buffalo Bills",
           "shortName": "BUF",
           "score": 21,
-          "record": ""
+          "record": "",
+          "id": "tm_l5xhah1cMQbI1cad3dbscL",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Baltimore Ravens",
           "shortName": "BAL",
           "score": 17,
-          "record": ""
+          "record": "",
+          "id": "tm_wDeYCImXGK-wHiQ9rSHrew",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_IN_PROGRESS",
+          "type": "LIVE",
           "detail": "In progress \u00b7 sample",
           "shortDetail": "In progress \u00b7 sample",
           "period": 2,
-          "completed": false
+          "completed": false,
+          "state": "in",
+          "clock": "4:12"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_ip4GDUOyREGOHTNCMVEpjF",
+          "name": "NFL"
+        }
       },
       {
-        "id": "sample-nfl-2",
+        "id": "evt_byjIBLrKGefLTfm0478UM-",
         "sport": "nfl",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Buffalo Bills",
           "shortName": "BUF",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_l5xhah1cMQbI1cad3dbscL",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Baltimore Ravens",
           "shortName": "BAL",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_wDeYCImXGK-wHiQ9rSHrew",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_SCHEDULED",
+          "type": "SCHEDULED",
           "detail": "Scheduled \u00b7 sample",
           "shortDetail": "Scheduled \u00b7 sample",
           "period": 0,
-          "completed": false
+          "completed": false,
+          "state": "pre",
+          "clock": ""
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_ip4GDUOyREGOHTNCMVEpjF",
+          "name": "NFL"
+        }
       },
       {
-        "id": "sample-nfl-3",
+        "id": "evt_L6cv6GfeznClghGUEa2PoE",
         "sport": "nfl",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Buffalo Bills",
           "shortName": "BUF",
           "score": 21,
-          "record": ""
+          "record": "",
+          "id": "tm_l5xhah1cMQbI1cad3dbscL",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Baltimore Ravens",
           "shortName": "BAL",
           "score": 17,
-          "record": ""
+          "record": "",
+          "id": "tm_wDeYCImXGK-wHiQ9rSHrew",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_FINAL",
+          "type": "FINAL",
           "detail": "Final \u00b7 sample",
           "shortDetail": "Final \u00b7 sample",
           "period": 2,
-          "completed": true
+          "completed": true,
+          "state": "post",
+          "clock": "0:00"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_ip4GDUOyREGOHTNCMVEpjF",
+          "name": "NFL"
+        }
       }
     ]
   },
@@ -92,88 +122,118 @@
     "sport": "nba",
     "games": [
       {
-        "id": "sample-nba-1",
+        "id": "evt_bH4neFnmnBIaro7S6Ed30_",
         "sport": "nba",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Boston Celtics",
           "shortName": "BOS",
           "score": 84,
-          "record": ""
+          "record": "",
+          "id": "tm_G1pBBRce9Pa45GwQJb07jP",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "New York Knicks",
           "shortName": "NYK",
           "score": 79,
-          "record": ""
+          "record": "",
+          "id": "tm_3CV5BFTKjaQQAqwsLxAqWa",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_IN_PROGRESS",
+          "type": "LIVE",
           "detail": "In progress \u00b7 sample",
           "shortDetail": "In progress \u00b7 sample",
           "period": 2,
-          "completed": false
+          "completed": false,
+          "state": "in",
+          "clock": "4:12"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_HacaWKjOtZ7_A2v58clIjU",
+          "name": "NBA"
+        }
       },
       {
-        "id": "sample-nba-2",
+        "id": "evt_uRrSVOnZaLOD1d6qwAhWvT",
         "sport": "nba",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Boston Celtics",
           "shortName": "BOS",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_G1pBBRce9Pa45GwQJb07jP",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "New York Knicks",
           "shortName": "NYK",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_3CV5BFTKjaQQAqwsLxAqWa",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_SCHEDULED",
+          "type": "SCHEDULED",
           "detail": "Scheduled \u00b7 sample",
           "shortDetail": "Scheduled \u00b7 sample",
           "period": 0,
-          "completed": false
+          "completed": false,
+          "state": "pre",
+          "clock": ""
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_HacaWKjOtZ7_A2v58clIjU",
+          "name": "NBA"
+        }
       },
       {
-        "id": "sample-nba-3",
+        "id": "evt_qX9mnpIIEBYQXmA6w27N1J",
         "sport": "nba",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Boston Celtics",
           "shortName": "BOS",
           "score": 84,
-          "record": ""
+          "record": "",
+          "id": "tm_G1pBBRce9Pa45GwQJb07jP",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "New York Knicks",
           "shortName": "NYK",
           "score": 79,
-          "record": ""
+          "record": "",
+          "id": "tm_3CV5BFTKjaQQAqwsLxAqWa",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_FINAL",
+          "type": "FINAL",
           "detail": "Final \u00b7 sample",
           "shortDetail": "Final \u00b7 sample",
           "period": 2,
-          "completed": true
+          "completed": true,
+          "state": "post",
+          "clock": "0:00"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_HacaWKjOtZ7_A2v58clIjU",
+          "name": "NBA"
+        }
       }
     ]
   },
@@ -181,88 +241,118 @@
     "sport": "nhl",
     "games": [
       {
-        "id": "sample-nhl-1",
+        "id": "evt_a48NRqz7h2THvQ1aG2qDqY",
         "sport": "nhl",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Detroit Red Wings",
           "shortName": "DET",
           "score": 2,
-          "record": ""
+          "record": "",
+          "id": "tm_rASOHSPbF7XPVpwQpSUcYs",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Toronto Maple Leafs",
           "shortName": "TOR",
           "score": 3,
-          "record": ""
+          "record": "",
+          "id": "tm_jBuR68BFmQw_JeNIkGeHXO",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_IN_PROGRESS",
+          "type": "LIVE",
           "detail": "In progress \u00b7 sample",
           "shortDetail": "In progress \u00b7 sample",
           "period": 2,
-          "completed": false
+          "completed": false,
+          "state": "in",
+          "clock": "4:12"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_b5k0_MdOInnNtt75MC7-jW",
+          "name": "NHL"
+        }
       },
       {
-        "id": "sample-nhl-2",
+        "id": "evt_kpc1fkd7O_AJ_lkiEM3akz",
         "sport": "nhl",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Detroit Red Wings",
           "shortName": "DET",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_rASOHSPbF7XPVpwQpSUcYs",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Toronto Maple Leafs",
           "shortName": "TOR",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_jBuR68BFmQw_JeNIkGeHXO",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_SCHEDULED",
+          "type": "SCHEDULED",
           "detail": "Scheduled \u00b7 sample",
           "shortDetail": "Scheduled \u00b7 sample",
           "period": 0,
-          "completed": false
+          "completed": false,
+          "state": "pre",
+          "clock": ""
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_b5k0_MdOInnNtt75MC7-jW",
+          "name": "NHL"
+        }
       },
       {
-        "id": "sample-nhl-3",
+        "id": "evt_i57gIcUE1alM_XWw32hI1z",
         "sport": "nhl",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Detroit Red Wings",
           "shortName": "DET",
           "score": 2,
-          "record": ""
+          "record": "",
+          "id": "tm_rASOHSPbF7XPVpwQpSUcYs",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Toronto Maple Leafs",
           "shortName": "TOR",
           "score": 3,
-          "record": ""
+          "record": "",
+          "id": "tm_jBuR68BFmQw_JeNIkGeHXO",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_FINAL",
+          "type": "FINAL",
           "detail": "Final \u00b7 sample",
           "shortDetail": "Final \u00b7 sample",
           "period": 2,
-          "completed": true
+          "completed": true,
+          "state": "post",
+          "clock": "0:00"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_b5k0_MdOInnNtt75MC7-jW",
+          "name": "NHL"
+        }
       }
     ]
   },
@@ -270,88 +360,118 @@
     "sport": "mlb",
     "games": [
       {
-        "id": "sample-mlb-1",
+        "id": "evt_GUZIWrSFBisOdyTQh3gJ8e",
         "sport": "mlb",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "New York Yankees",
           "shortName": "NYY",
           "score": 4,
-          "record": ""
+          "record": "",
+          "id": "tm_QAyVi9anopuAk-9WWZ8tfe",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Boston Red Sox",
           "shortName": "BOS",
           "score": 2,
-          "record": ""
+          "record": "",
+          "id": "tm_80EajGw_SJ2-bX2FTd7APl",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_IN_PROGRESS",
+          "type": "LIVE",
           "detail": "In progress \u00b7 sample",
           "shortDetail": "In progress \u00b7 sample",
           "period": 2,
-          "completed": false
+          "completed": false,
+          "state": "in",
+          "clock": "4:12"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_MTvj-WU_nugkIRzMpCQUXy",
+          "name": "MLB"
+        }
       },
       {
-        "id": "sample-mlb-2",
+        "id": "evt_j-GKtnhx0d--b6atGBFUdC",
         "sport": "mlb",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "New York Yankees",
           "shortName": "NYY",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_QAyVi9anopuAk-9WWZ8tfe",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Boston Red Sox",
           "shortName": "BOS",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_80EajGw_SJ2-bX2FTd7APl",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_SCHEDULED",
+          "type": "SCHEDULED",
           "detail": "Scheduled \u00b7 sample",
           "shortDetail": "Scheduled \u00b7 sample",
           "period": 0,
-          "completed": false
+          "completed": false,
+          "state": "pre",
+          "clock": ""
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_MTvj-WU_nugkIRzMpCQUXy",
+          "name": "MLB"
+        }
       },
       {
-        "id": "sample-mlb-3",
+        "id": "evt_Gnm6odb9-0LwiwM8jidSPF",
         "sport": "mlb",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "New York Yankees",
           "shortName": "NYY",
           "score": 4,
-          "record": ""
+          "record": "",
+          "id": "tm_QAyVi9anopuAk-9WWZ8tfe",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Boston Red Sox",
           "shortName": "BOS",
           "score": 2,
-          "record": ""
+          "record": "",
+          "id": "tm_80EajGw_SJ2-bX2FTd7APl",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_FINAL",
+          "type": "FINAL",
           "detail": "Final \u00b7 sample",
           "shortDetail": "Final \u00b7 sample",
           "period": 2,
-          "completed": true
+          "completed": true,
+          "state": "post",
+          "clock": "0:00"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_MTvj-WU_nugkIRzMpCQUXy",
+          "name": "MLB"
+        }
       }
     ]
   },
@@ -359,88 +479,118 @@
     "sport": "ncaaf",
     "games": [
       {
-        "id": "sample-ncaaf-1",
+        "id": "evt_Sqp054EzU2oXPM3sjiI8sg",
         "sport": "ncaaf",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Michigan Wolverines",
           "shortName": "MICH",
           "score": 17,
-          "record": ""
+          "record": "",
+          "id": "tm_hHvt2qsDruUdpF5fIsYtJh",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Ohio State Buckeyes",
           "shortName": "OSU",
           "score": 14,
-          "record": ""
+          "record": "",
+          "id": "tm_y6ye1HArToCDsl8wN_o2Hr",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_IN_PROGRESS",
+          "type": "LIVE",
           "detail": "In progress \u00b7 sample",
           "shortDetail": "In progress \u00b7 sample",
           "period": 2,
-          "completed": false
+          "completed": false,
+          "state": "in",
+          "clock": "4:12"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_3YQO8MZMKxsqWI5UHkrE5Y",
+          "name": "College football"
+        }
       },
       {
-        "id": "sample-ncaaf-2",
+        "id": "evt_AC7mSth_5-j_GPZ4RTS7qs",
         "sport": "ncaaf",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Michigan Wolverines",
           "shortName": "MICH",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_hHvt2qsDruUdpF5fIsYtJh",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Ohio State Buckeyes",
           "shortName": "OSU",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_y6ye1HArToCDsl8wN_o2Hr",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_SCHEDULED",
+          "type": "SCHEDULED",
           "detail": "Scheduled \u00b7 sample",
           "shortDetail": "Scheduled \u00b7 sample",
           "period": 0,
-          "completed": false
+          "completed": false,
+          "state": "pre",
+          "clock": ""
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_3YQO8MZMKxsqWI5UHkrE5Y",
+          "name": "College football"
+        }
       },
       {
-        "id": "sample-ncaaf-3",
+        "id": "evt_DGkEPQgCz5Xh8-p4YVeIRh",
         "sport": "ncaaf",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Michigan Wolverines",
           "shortName": "MICH",
           "score": 17,
-          "record": ""
+          "record": "",
+          "id": "tm_hHvt2qsDruUdpF5fIsYtJh",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Ohio State Buckeyes",
           "shortName": "OSU",
           "score": 14,
-          "record": ""
+          "record": "",
+          "id": "tm_y6ye1HArToCDsl8wN_o2Hr",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_FINAL",
+          "type": "FINAL",
           "detail": "Final \u00b7 sample",
           "shortDetail": "Final \u00b7 sample",
           "period": 2,
-          "completed": true
+          "completed": true,
+          "state": "post",
+          "clock": "0:00"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_3YQO8MZMKxsqWI5UHkrE5Y",
+          "name": "College football"
+        }
       }
     ]
   },
@@ -448,88 +598,118 @@
     "sport": "ncaab",
     "games": [
       {
-        "id": "sample-ncaab-1",
+        "id": "evt_kA6pQQ6dicn74MmZFwsLIT",
         "sport": "ncaab",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Duke Blue Devils",
           "shortName": "DUKE",
           "score": 54,
-          "record": ""
+          "record": "",
+          "id": "tm_YntcRCvQsGBAAKWPEjPe0q",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "North Carolina Tar Heels",
           "shortName": "UNC",
           "score": 51,
-          "record": ""
+          "record": "",
+          "id": "tm_dVeJ6bPAoK70CaO-EAjyj5",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_IN_PROGRESS",
+          "type": "LIVE",
           "detail": "In progress \u00b7 sample",
           "shortDetail": "In progress \u00b7 sample",
           "period": 2,
-          "completed": false
+          "completed": false,
+          "state": "in",
+          "clock": "4:12"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_tdoJP2jerh8pFUdxpZDaBU",
+          "name": "College basketball"
+        }
       },
       {
-        "id": "sample-ncaab-2",
+        "id": "evt_7q0DKnZtyhi3oS1aGfMqNP",
         "sport": "ncaab",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Duke Blue Devils",
           "shortName": "DUKE",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_YntcRCvQsGBAAKWPEjPe0q",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "North Carolina Tar Heels",
           "shortName": "UNC",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_dVeJ6bPAoK70CaO-EAjyj5",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_SCHEDULED",
+          "type": "SCHEDULED",
           "detail": "Scheduled \u00b7 sample",
           "shortDetail": "Scheduled \u00b7 sample",
           "period": 0,
-          "completed": false
+          "completed": false,
+          "state": "pre",
+          "clock": ""
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_tdoJP2jerh8pFUdxpZDaBU",
+          "name": "College basketball"
+        }
       },
       {
-        "id": "sample-ncaab-3",
+        "id": "evt_k7JFWm-4O1_F-gFWxGj31B",
         "sport": "ncaab",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Duke Blue Devils",
           "shortName": "DUKE",
           "score": 54,
-          "record": ""
+          "record": "",
+          "id": "tm_YntcRCvQsGBAAKWPEjPe0q",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "North Carolina Tar Heels",
           "shortName": "UNC",
           "score": 51,
-          "record": ""
+          "record": "",
+          "id": "tm_dVeJ6bPAoK70CaO-EAjyj5",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_FINAL",
+          "type": "FINAL",
           "detail": "Final \u00b7 sample",
           "shortDetail": "Final \u00b7 sample",
           "period": 2,
-          "completed": true
+          "completed": true,
+          "state": "post",
+          "clock": "0:00"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_tdoJP2jerh8pFUdxpZDaBU",
+          "name": "College basketball"
+        }
       }
     ]
   },
@@ -537,88 +717,118 @@
     "sport": "soccer",
     "games": [
       {
-        "id": "sample-soccer-1",
+        "id": "evt_L66KrqXbs4kgwZJ1P-aACH",
         "sport": "soccer",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Arsenal",
           "shortName": "ARS",
           "score": 1,
-          "record": ""
+          "record": "",
+          "id": "tm_gMIe1Rqo-15OuTlhL6qjPp",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Liverpool",
           "shortName": "LIV",
           "score": 1,
-          "record": ""
+          "record": "",
+          "id": "tm_vZtXniwkPXS72kY1O-5UQl",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_IN_PROGRESS",
+          "type": "LIVE",
           "detail": "In progress \u00b7 sample",
           "shortDetail": "In progress \u00b7 sample",
           "period": 2,
-          "completed": false
+          "completed": false,
+          "state": "in",
+          "clock": "4:12"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_K1BlN-t6_BmLC_mzN-IHZ8",
+          "name": "Soccer"
+        }
       },
       {
-        "id": "sample-soccer-2",
+        "id": "evt_8ztmpI7P5rzqK-qNAMxBLZ",
         "sport": "soccer",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Arsenal",
           "shortName": "ARS",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_gMIe1Rqo-15OuTlhL6qjPp",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Liverpool",
           "shortName": "LIV",
           "score": 0,
-          "record": ""
+          "record": "",
+          "id": "tm_vZtXniwkPXS72kY1O-5UQl",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_SCHEDULED",
+          "type": "SCHEDULED",
           "detail": "Scheduled \u00b7 sample",
           "shortDetail": "Scheduled \u00b7 sample",
           "period": 0,
-          "completed": false
+          "completed": false,
+          "state": "pre",
+          "clock": ""
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_K1BlN-t6_BmLC_mzN-IHZ8",
+          "name": "Soccer"
+        }
       },
       {
-        "id": "sample-soccer-3",
+        "id": "evt_0mMOPOqbdDxtH38k9sQ3ix",
         "sport": "soccer",
         "date": "2026-10-01T18:00:00Z",
         "awayTeam": {
           "name": "Arsenal",
           "shortName": "ARS",
           "score": 1,
-          "record": ""
+          "record": "",
+          "id": "tm_gMIe1Rqo-15OuTlhL6qjPp",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "homeTeam": {
           "name": "Liverpool",
           "shortName": "LIV",
           "score": 1,
-          "record": ""
+          "record": "",
+          "id": "tm_vZtXniwkPXS72kY1O-5UQl",
+          "logo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='21' fill='%23dce3d5'/%3E%3C/svg%3E"
         },
         "status": {
-          "type": "STATUS_FINAL",
+          "type": "FINAL",
           "detail": "Final \u00b7 sample",
           "shortDetail": "Final \u00b7 sample",
           "period": 2,
-          "completed": true
+          "completed": true,
+          "state": "post",
+          "clock": "0:00"
         },
         "venue": {
           "fullName": "Illustrative venue"
         },
-        "broadcast": []
+        "broadcast": [],
+        "league": {
+          "id": "lg_K1BlN-t6_BmLC_mzN-IHZ8",
+          "name": "Soccer"
+        }
       }
     ]
   }

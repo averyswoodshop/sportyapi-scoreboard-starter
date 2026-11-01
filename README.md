@@ -11,7 +11,7 @@ Use Node.js 22.9+ (or a newer LTS release).
 ```sh
 git clone https://github.com/averyswoodshop/sportyapi-scoreboard-starter.git
 cd sportyapi-scoreboard-starter
-git checkout v1.0.0
+git checkout v1.0.1
 npm start
 ```
 
@@ -27,6 +27,12 @@ Open http://localhost:3000. No npm install, API key, signup, or card is needed f
 Do not commit `.env`, paste your key into `public/`, or expose it in client JavaScript. Your SportyApi key also authorizes billing. This localhost server deliberately does not listen on your network.
 
 The sample client displays dates in the viewer's local timezone. Optional values can be absent; scheduled games use a dash instead of a misleading zero score. Empty and unavailable states are handled.
+
+## Sample response contract
+
+The fixtures use the current API status enum (`LIVE`, `SCHEDULED`, `FINAL`, and the other documented states), opaque-shaped `evt_`, `tm_`, and `lg_` IDs, and normalized status fields. They contain no provider team keys, raw status labels, or provider identity metadata. Opaque responses are standard in live mode; no privacy header is required.
+
+Fixture IDs and scores are invented examples, not live API identities. A live team's opaque ID is feed-scoped and can change on fallback; persistent follows require canonical IDs and a mapping table.
 
 ## Files
 
